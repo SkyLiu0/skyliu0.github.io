@@ -1,0 +1,18 @@
+{
+  "_template": {
+    "number": "01",
+    "title": "Research topic",
+    "intro": "A short description of your research focus."
+  },
+  "items": [
+    {
+      "number": "01",
+      "title": "Linear programming"
+    },
+    {
+      "number": "02",
+      "title": "Optimization algorithms"
+    }
+  ],
+  "intro": "My research mainly focuses on the design and analysis of **linear programming algorithms**. I am interested in developing methods that are mathematically grounded, computationally efficient, and useful for challenging optimization problems."
+}

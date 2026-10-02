@@ -1,0 +1,128 @@
+{
+  "_template": {
+    "year": "2026",
+    "type": "Journal article / Conference paper / Preprint",
+    "title": "Paper title",
+    "authors": "Author One, Tianhao Liu, Author Two",
+    "venue": "Journal or conference name",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/..."
+      }
+    ]
+  },
+  "items": [
+    {
+      "year": "2026",
+      "type": "Preprint",
+      "title": "A Curved-Path Refinement of the Kalai—Kleitman Diameter Bound",
+      "authors": "Tianhao Liu, Dongdong Ge, Yinyu Ye",
+      "venue": "arXiv preprint",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.33434"
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "type": "Preprint",
+      "title": "A Spectral Proof of Khachiyan's Ellipsoid Conjecture",
+      "authors": "Longfei Zhou, Haijun Zou, Tianhao Liu",
+      "venue": "arXiv preprint",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.28447"
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "type": "Journal article",
+      "title": "A New Crossover Algorithm for LP Inspired by the Spiral Dynamic of PDHG",
+      "authors": "Tianhao Liu, Haihao Lu",
+      "venue": "INFORMS Journal on Computing",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1287/ijoc.2024.0996"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/INFORMSJoC/2024.0996"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "type": "Journal article",
+      "title": "An Enhanced Alternating Direction Method of Multipliers-Based Interior Point Method for Linear and Conic Optimization",
+      "authors": "Qi Deng, Qing Feng, Wenzhi Gao, Dongdong Ge, Bo Jiang, Yuntian Jiang, Jingsong Liu, Tianhao Liu, Chenyu Xue, Yinyu Ye, Chuwen Zhang",
+      "venue": "INFORMS Journal on Computing",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1287/ijoc.2023.0017"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2209.01793"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "type": "Journal article",
+      "title": "Algorithm 1053: SOLNP+: A Derivative-Free Solver for Constrained Nonlinear Optimization",
+      "authors": "Dongdong Ge, Jinsong Liu, Tianhao Liu, Jiyuan Tan, Yinyu Ye",
+      "venue": "ACM Transactions on Mathematical Software",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3699956"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/COPT-Public/SOLNP_plus"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "type": "Conference paper",
+      "title": "Learning to Pivot as a Smart Expert",
+      "authors": "Tianhao Liu, Shanwen Pu, Dongdong Ge, Yinyu Ye",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1609/aaai.v38i8.28646"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2308.08171"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "type": "Preprint",
+      "title": "cuPDLP-C: A Strengthened Implementation of cuPDLP for Linear Programming by C Language",
+      "authors": "Haihao Lu, Jinwen Yang, Haodong Hu, Qi Huangfu, Jinsong Liu, Tianhao Liu, Yinyu Ye, Chuwen Zhang, Dongdong Ge",
+      "venue": "arXiv preprint",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2312.14832"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/COPT-Public/cuPDLP-C"
+        }
+      ]
+    }
+  ]
+}

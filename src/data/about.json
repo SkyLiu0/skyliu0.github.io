@@ -1,0 +1,139 @@
+{
+  "_template": {
+    "name": "Full name",
+    "role": "PhD Candidate",
+    "headline": [
+      "Full name"
+    ],
+    "bio": "Short academic self-introduction.",
+    "affiliation": [
+      "Department or college",
+      "University"
+    ],
+    "location": "City, Country",
+    "advisors": [
+      "Prof. Advisor One",
+      "Prof. Advisor Two"
+    ],
+    "researchInterests": "Research area",
+    "email": "name@example.edu",
+    "portrait": "img/portrait.jpg",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID",
+      "github": "https://github.com/YOUR_USERNAME",
+      "linkedin": "https://www.linkedin.com/in/YOUR_PROFILE/"
+    },
+    "previousVisit": "Institution / school",
+    "keywords": [
+      "Keyword one",
+      "Keyword two",
+      "Keyword three"
+    ],
+    "quickFacts": [
+      {
+        "label": "Based in",
+        "key": "location"
+      },
+      {
+        "label": "Research",
+        "key": "researchInterests"
+      },
+      {
+        "label": "Email",
+        "key": "email",
+        "hrefPrefix": "mailto:"
+      }
+    ],
+    "profileIcons": [
+      {
+        "key": "scholar",
+        "label": "Google Scholar",
+        "icon": "img/icons/google-scholar.svg"
+      },
+      {
+        "key": "github",
+        "label": "GitHub",
+        "icon": "img/icons/github.svg"
+      },
+      {
+        "key": "linkedin",
+        "label": "LinkedIn",
+        "icon": "img/icons/linkedin.svg"
+      }
+    ],
+    "authorHighlight": {
+      "enabled": true,
+      "names": [
+        "Full name",
+        "Full name with middle name"
+      ]
+    }
+  },
+  "name": "Tianhao Liu",
+  "initials": "TL",
+  "role": "PhD Candidate",
+  "headline": [
+    "Tianhao Liu"
+  ],
+  "bio": "I am a PhD candidate at Antai College of Economics and Management, Shanghai Jiao Tong University. I am advised by Prof. Dongdong Ge and Prof. Yinyu Ye. My research interests focus on algorithms for **linear programming** and beyond.",
+  "affiliation": [
+    "Antai College of Economics and Management",
+    "Shanghai Jiao Tong University"
+  ],
+  "location": "Shanghai, China",
+  "email": "tianhao.liu@sjtu.edu.cn",
+  "portrait": "img/sky_at_ubc.jpg",
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=dW9mkjgAAAAJ",
+    "github": "https://github.com/SkyLiu0",
+    "linkedin": "https://www.linkedin.com/in/tianhao-liu-5508a816b/"
+  },
+  "advisors": [
+    "Prof. Dongdong Ge",
+    "Prof. Yinyu Ye"
+  ],
+  "researchInterests": "Linear programming algorithms",
+  "previousVisit": "University of Chicago, Booth School of Business",
+  "keywords": [
+    "Linear programming",
+    "Optimization algorithms"
+  ],
+  "quickFacts": [
+    {
+      "label": "Based in",
+      "key": "location"
+    },
+    {
+      "label": "Research",
+      "key": "researchInterests"
+    },
+    {
+      "label": "Email",
+      "key": "email",
+      "hrefPrefix": "mailto:"
+    }
+  ],
+  "profileIcons": [
+    {
+      "key": "scholar",
+      "label": "Google Scholar",
+      "icon": "img/icons/google-scholar.svg"
+    },
+    {
+      "key": "github",
+      "label": "GitHub",
+      "icon": "img/icons/github.svg"
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "icon": "img/icons/linkedin.svg"
+    }
+  ],
+  "authorHighlight": {
+    "enabled": true,
+    "names": [
+      "Tianhao Liu"
+    ]
+  }
+}

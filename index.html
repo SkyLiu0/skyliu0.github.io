@@ -1,15 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tianhao Liu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Tianhao Liu — academic homepage, research, publications, and contact information.">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Tianhao Liu · Academic Homepage</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%231f4b99'/%3E%3Cpath d='M18 18h28v7H35v21h-7V25H18z' fill='white'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
-    <h1>Tianhao Liu</h1>
-    <p>Email: tianhao.sky.liu@gmail.com</p>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <header class="site-header"><a class="wordmark" href="#top"
+            aria-label="Tianhao Liu home"><span>TL</span><strong>Tianhao Liu</strong></a>
+        <nav class="nav" aria-label="Primary navigation"><a href="#about">About</a><a href="#research">Research</a><a
+                href="#publications">Publications</a><a href="#contact">Contact</a></nav><button class="theme-toggle"
+            type="button" aria-label="Switch to dark mode" title="Toggle dark mode"><span class="sun">☼</span><span
+                class="moon">◐</span></button>
+    </header>
+    <main id="top">
+        <section id="about" class="hero section-grid">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">PhD Candidate</p>
+                <h1>Tianhao Liu</h1>
+                <p class="lede">I am a PhD candidate at Antai College of Economics and Management, Shanghai Jiao Tong
+                    University. I am advised by Prof. Dongdong Ge and Prof. Yinyu Ye. My research interests focus on
+                    algorithms for linear programming.
+                </p>
+                <div class="academic-details">
+                    <p class="affiliation"><span class="detail-label">Affiliation</span>Antai College of Economics and
+                        Management<br>Shanghai Jiao Tong University</p>
+                    <p class="experience"><span class="detail-label">Previously visited</span>University of Chicago
+                        Booth School
+                        of Business</p>
+                </div>
+                <div id="quick-facts" class="quick-facts"></div>
+            </div>
+            <div class="portrait-card reveal reveal-delay">
+                <div class="portrait-frame">
+                    <div class="portrait-image"><img src="img/sky_at_ubc.jpg" alt="Tianhao Liu at UBC"></div><svg
+                        class="polytope-frame" viewBox="0 0 400 500" preserveAspectRatio="none" aria-hidden="true">
+                        <g class="polytope-cuts">
+                            <!-- Cutting planes continue through both ends of each selected boundary edge. -->
+                            <line x1="101" y1="14" x2="56" y2="405" />
+                            <line x1="40" y1="75" x2="350" y2="75" />
+                            <line x1="243" y1="10" x2="380" y2="216" />
+                            <line x1="342.928870" y1="58" x2="311.146444" y2="480" />
+                            <line x1="365" y1="347" x2="210" y2="487" />
+                            <line x1="40" y1="290" x2="126" y2="452" />
+                            <line x1="322" y1="453" x2="46" y2="419" />
+                        </g>
+                        <polygon points="94,75 286,75 336,150 318,389 256,445 112,427 64,336" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="research" class="research section-grid section-space">
+            <div class="section-intro reveal">
+                <p class="eyebrow">01 / Research</p>
+                <h2>Linear programming<br><em>algorithms</em></h2>
+            </div>
+            <div class="research-body reveal">
+                <p id="research-intro"></p>
+                <div id="research-topics" class="topic-list"></div>
+            </div>
+        </section>
+        <section id="publications" class="publications section-space">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">02 / Selected work</p>
+                    <h2>Recent publications</h2>
+                </div>
+            </div>
+            <div id="paper-list" class="paper-list" aria-live="polite"></div><button id="papers-toggle"
+                class="papers-toggle" type="button" hidden>Show more</button>
+        </section>
+        <section id="contact" class="contact section-space reveal">
+            <div>
+                <p class="eyebrow">03 / Contact</p>
+                <h2>Contact and<br><em>profiles</em></h2>
+            </div>
+            <div class="contact-copy">
+                <p>Academic correspondence</p><a class="email-link"
+                    href="mailto:tianhao.liu@sjtu.edu.cn">tianhao.liu@sjtu.edu.cn</a>
+                <div id="social-links" class="social-links"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><span>© <span id="year"></span> Tianhao Liu</span><span>Academic homepage</span>
+    </footer>
+    <script src="js/content.js"></script>
 </body>
 
 </html>
