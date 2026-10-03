@@ -1,4 +1,4 @@
-# Tianhao Liu · Academic Homepage
+# Tianhao Liu | Homepage
 
 这是一个使用原生 HTML、CSS 和 JavaScript 构建的 GitHub Pages 学术主页。页面内容主要由 `src/data/` 下的 JSON 文件驱动，日常更新论文、个人信息和链接时通常不需要修改 HTML。
 
@@ -29,23 +29,23 @@ python3 -m http.server 8000
 
 ### 常用字段
 
-| 字段 | 类型 | 用途 |
-| --- | --- | --- |
-| `name` | string | 姓名 |
-| `initials` | string | 顶栏缩写 |
-| `role` | string | About 顶部职位 |
-| `headline` | array | 主标题，目前会拼接数组中的文字 |
-| `bio` | string | 自我介绍 |
-| `affiliation` | array | affiliation 的多行内容 |
-| `location` | string | 所在地 |
-| `email` | string | 邮箱主数据源 |
-| `portrait` | string | 肖像图片路径 |
-| `links` | object | 社交链接 URL |
-| `previousVisit` | string | 访问经历 |
-| `advisors` | array | 导师信息，当前暂未显示 |
-| `keywords` | array | 关键词，当前暂未显示 |
-| `quickFacts` | array | About 下方的快速信息 |
-| `profileIcons` | array | Contact 区域的社交图标和链接 |
+| 字段            | 类型   | 用途                           |
+| --------------- | ------ | ------------------------------ |
+| `name`          | string | 姓名                           |
+| `initials`      | string | 顶栏缩写                       |
+| `role`          | string | About 顶部职位                 |
+| `headline`      | array  | 主标题，目前会拼接数组中的文字 |
+| `bio`           | string | 自我介绍                       |
+| `affiliation`   | array  | affiliation 的多行内容         |
+| `location`      | string | 所在地                         |
+| `email`         | string | 邮箱主数据源                   |
+| `portrait`      | string | 肖像图片路径                   |
+| `links`         | object | 社交链接 URL                   |
+| `previousVisit` | string | 访问经历                       |
+| `advisors`      | array  | 导师信息，当前暂未显示         |
+| `keywords`      | array  | 关键词，当前暂未显示           |
+| `quickFacts`    | array  | About 下方的快速信息           |
+| `profileIcons`  | array  | Contact 区域的社交图标和链接   |
 
 ### `quickFacts`
 
