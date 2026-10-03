@@ -307,22 +307,6 @@ h2 em {
     opacity: .78
 }
 
-.portrait-caption {
-    font-size: 11px;
-    color: var(--muted);
-    margin-top: 14px;
-    transform: none
-}
-
-.status-dot {
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #34c759;
-    margin-right: 7px
-}
-
 .section-space {
     padding: 125px 0
 }
@@ -357,11 +341,20 @@ h2 {
     margin-top: 42px
 }
 
-.topic-list span {
+.topic-list > span {
     padding: 16px 0;
     border-bottom: 1px solid var(--line);
     font-size: 12px;
     color: var(--muted)
+}
+
+.topic-marker {
+    display: inline-block;
+    width: 1.35em;
+    margin-right: .15em;
+    color: var(--accent);
+    font-size: 1.05em;
+    text-align: center;
 }
 
 .papers-toggle[hidden] {
@@ -398,11 +391,6 @@ h2 {
     margin-bottom: 16px
 }
 
-.section-note {
-    font-size: 12px;
-    color: var(--muted)
-}
-
 .paper-list {
     border-top: 1px solid var(--line)
 }
@@ -425,49 +413,10 @@ h2 {
     will-change: transform
 }
 
-.paper::before {
-    content: "";
-    position: absolute;
-    left: -9px;
-    top: 12px;
-    bottom: 12px;
-    width: 2px;
-    border-radius: 2px;
-    background: var(--accent);
-    opacity: .72;
-    transform: scaleY(0);
-    transform-origin: center;
-    transition: transform .35s ease
-}
-
 .paper:hover {
     transform: none;
     background: var(--paper-glass);
     box-shadow: inset 0 1px 0 var(--paper-outline), inset 0 -1px 0 color-mix(in srgb, var(--line) 60%, transparent)
-}
-
-.paper.paper-exit {
-    opacity: 0 !important;
-    transform: translateY(8px) !important;
-    transition: opacity .2s ease, transform .2s ease;
-}
-
-.paper.paper-collapsed {
-    height: 0;
-    max-height: 0;
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    overflow: hidden;
-    opacity: 0 !important;
-    transform: translateY(8px) !important;
-    border-bottom-color: transparent;
-    pointer-events: none;
-    transition: opacity .2s ease, transform .2s ease, height 0s, padding 0s, border-color 0s;
-}
-
-.paper:hover::before {
-    transform: scaleY(0)
 }
 
 .paper-year,
@@ -679,11 +628,6 @@ h2 {
         display: block
     }
 
-    .section-note {
-        display: block;
-        margin-top: 12px
-    }
-
     .paper {
         grid-template-columns: 48px 1fr;
         gap: 16px;
@@ -699,10 +643,6 @@ h2 {
         background: transparent;
         box-shadow: none;
         transform: none
-    }
-
-    .paper:hover::before {
-        transform: scaleY(0)
     }
 
     .site-footer {

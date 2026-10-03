@@ -1,16 +1,25 @@
 {
   "_template": {
-    "number": "01",
+    "marker": "•",
+    "markerOptions": [
+      "•",
+      "◦",
+      "▪",
+      "▫",
+      "—",
+      "◇",
+      "◆"
+    ],
     "title": "Research topic",
     "intro": "A short description of your research focus."
   },
   "items": [
     {
-      "number": "01",
+      "marker": "◆",
       "title": "Linear programming"
     },
     {
-      "number": "02",
+      "marker": "◆",
       "title": "Optimization algorithms"
     }
   ],

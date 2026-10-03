@@ -112,7 +112,8 @@ const loadResearch = async () => {
     if (!response.ok) throw new Error('Could not load research topics');
     const data = await response.json();
     document.querySelector('#research-intro').innerHTML = formatMarked(data.intro ?? '');
-    document.querySelector('#research-topics').innerHTML = (data.items || []).map(item => `<span>${item.number}&nbsp; ${formatMarked(item.title)}</span>`).join('');
+    const defaultMarker = data._template?.marker ?? '•';
+    document.querySelector('#research-topics').innerHTML = (data.items || []).map(item => `<span><span class="topic-marker">${formatMarked(item.marker ?? defaultMarker)}</span>${formatMarked(item.title)}</span>`).join('');
   } catch (error) { console.warn('Research topics could not be loaded.', error); }
 };
 

@@ -141,13 +141,14 @@ JSON 中需要换行时使用 `\n`，空一行使用 `\n\n`。
 {
   "_template": {
     "intro": "A short description of your research focus.",
-    "number": "01",
+    "marker": "•",
+    "markerOptions": ["•", "◦", "▪", "▫", "—", "◇", "◆"],
     "title": "Research topic"
   },
   "intro": "My research mainly focuses on **linear programming algorithms**.",
   "items": [
     {
-      "number": "01",
+      "marker": "•",
       "title": "Linear programming"
     }
   ]
@@ -156,6 +157,8 @@ JSON 中需要换行时使用 `\n`，空一行使用 `\n\n`。
 
 - `intro`：Research 区域的介绍段落。
 - `items`：研究方向列表。
+- `marker`：研究方向前的标记，默认使用 `•`；也可以改成 `—`、`◇` 等自定义符号。
+- `markerOptions`：模板中预先列出的可选标记，方便复制；它不会被页面直接显示。
 - `title` 支持 `**加粗**` 和 `*斜体*`。
 
 ## `publications.json`
