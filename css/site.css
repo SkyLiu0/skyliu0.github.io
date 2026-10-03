@@ -171,8 +171,20 @@ a {
 }
 
 .theme-toggle > span {
-    display: block;
+    display: grid;
+    place-items: center;
     line-height: 1
+}
+
+.theme-icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round
 }
 
 .theme-toggle .moon {
@@ -184,7 +196,7 @@ a {
 }
 
 :root[data-theme=dark] .theme-toggle .moon {
-    display: inline
+    display: grid
 }
 
 main {
